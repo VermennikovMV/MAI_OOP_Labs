@@ -1,5 +1,6 @@
 #include <iostream>
 #include "include/solve_func.h"
+#include "src/solve_func.cpp"
 
 int main()
 {
@@ -10,7 +11,7 @@ int main()
   std::cin  >> rhv;
 
 
-  std::cout << "result: " << solve_func(lhv,rhv) << std::endl;
+  std::cout << "результат: " << solve_func(lhv,rhv) << std::endl;
 
   return 0;
 }
