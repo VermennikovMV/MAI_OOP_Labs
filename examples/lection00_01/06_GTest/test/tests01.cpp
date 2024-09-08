@@ -21,6 +21,11 @@ TEST(test_04, basic_test_set)
     ASSERT_TRUE(solve_func(12,3)==35);
 }
 
+TEST(test_05, basic_test_set)
+{
+    ASSERT_TRUE(solve_func(12,4)==35);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
