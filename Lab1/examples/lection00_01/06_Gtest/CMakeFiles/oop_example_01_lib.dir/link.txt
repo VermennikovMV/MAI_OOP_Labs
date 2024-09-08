@@ -1,0 +1,2 @@
+/usr/bin/ar qc liboop_example_01_lib.a CMakeFiles/oop_example_01_lib.dir/src/solve_func.cpp.o
+/usr/bin/ranlib liboop_example_01_lib.a
