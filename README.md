@@ -7,4 +7,3 @@
 1. cmake MakeLists.txt
 2. make
 3. ./tests
-aa
