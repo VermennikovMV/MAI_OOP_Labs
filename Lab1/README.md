@@ -7,3 +7,7 @@
 1. cmake MakeLists.txt
 2. make
 3. ./tests
+
+А если хотим запустить main.cpp (то есть проверить работу с вводом данных через консоль), то пишем:
+1. g++ -o main main.cpp
+2. ./main
